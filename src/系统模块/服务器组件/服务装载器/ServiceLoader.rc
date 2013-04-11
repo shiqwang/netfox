@@ -1,0 +1,258 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ServiceLoader.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ServiceLoader.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SERVICELOADER_DIALOG DIALOGEX 0, 0, 326, 229
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "游戏服务 - [停止]-V2.0.0.0(GS-TS)"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "启动服务",IDC_START,275,41,48,14,WS_DISABLED
+    PUSHBUTTON      "停止服务",IDC_STOP,275,60,48,14,WS_DISABLED
+    PUSHBUTTON      "创建房间",IDC_CREATE,275,79,48,14
+    PUSHBUTTON      "打开房间",IDC_OPEN,275,98,48,14
+    PUSHBUTTON      "配置房间",IDC_OPTION,275,117,48,14,WS_DISABLED
+    PUSHBUTTON      "保存配置",IDC_SAVE_OPTION,275,136,48,14,WS_DISABLED
+    PUSHBUTTON      "系统配置",IDC_SYSTEM,275,155,48,14
+    PUSHBUTTON      "隐藏界面",IDC_HIDE,275,174,48,14,WS_DISABLED
+    PUSHBUTTON      "服务控制",IDC_CONTROL,275,193,48,14,WS_DISABLED
+    PUSHBUTTON      "关闭服务",IDCANCEL,275,212,48,14
+    CONTROL         "",IDC_SERVICE_EVENT,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,2,2,270,225,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    ICON            IDR_MAINFRAME,IDC_STATIC,288,8,20,20
+END
+
+IDD_PARAMETER DIALOGEX 0, 0, 294, 400
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务配置："
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_SERVER_ID,65,14,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_TABLE_COUNT,65,29,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_GAME_GENRE,65,44,75,76,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_OPTION_KIND_ID,201,14,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_STATION_ID,202,29,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MAX_CONNECT,202,44,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_CELL_SCORE,202,59,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_NAME,65,74,212,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PORT,66,106,75,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_SERVER_ADDR,203,106,75,76,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_DATABASE_NAME,66,138,75,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_DATABASE_ADDR,"SysIPAddress32",WS_TABSTOP,203,138,75,12,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_KIND_ID,66,205,75,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_KIND_NAME,203,205,75,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_CHAIR_COUNT,66,220,75,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_DEF_DATABASE_NAME,203,220,75,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVICE_MODULE,66,235,75,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_CLIENT_MODULE,203,235,75,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_MODULE_DESCRIBE,66,250,213,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "附加权限",IDC_APPEND_RIGHT,7,381,50,14,WS_DISABLED
+    PUSHBUTTON      "比赛配置",IDC_MATCH_OPTION,64,381,50,14,WS_DISABLED
+    PUSHBUTTON      "高级选项",IDC_HIGH_OPTION,121,381,50,14,WS_DISABLED
+    PUSHBUTTON      "确定",IDOK,178,381,50,14
+    PUSHBUTTON      "取消",IDCANCEL,235,381,50,14
+    GROUPBOX        "数据库配置：",IDC_STATIC,3,127,286,29
+    LTEXT           "房间标识：",IDC_STATIC,22,17,40,8
+    LTEXT           "站点标识：",IDC_STATIC,158,32,40,8
+    LTEXT           "桌子数目：",IDC_STATIC,22,32,40,8
+    LTEXT           "游戏类型：",IDC_STATIC,22,47,40,8
+    LTEXT           "监听端口：",IDC_STATIC,22,108,41,8
+    LTEXT           "服务地址：",IDC_STATIC,157,108,41,8
+    LTEXT           "房间名字：",IDC_STATIC,22,76,40,8
+    LTEXT           "房间人数：",IDC_STATIC,158,47,40,8
+    GROUPBOX        "常规配置：",IDC_STATIC,4,3,286,88
+    GROUPBOX        "网络配置：",IDC_STATIC,4,94,286,29
+    LTEXT           "数据库地址：",IDC_STATIC,149,141,49,8
+    LTEXT           "数据库名字：",IDC_STATIC,14,141,49,8
+    GROUPBOX        "组件属性：",IDC_STATIC,3,194,286,74
+    LTEXT           "类型标识：",IDC_STATIC,22,208,41,8
+    LTEXT           "椅子数目：",IDC_STATIC,22,223,41,8
+    LTEXT           "默认数据库：",IDC_STATIC,149,223,49,8
+    LTEXT           "游戏名字：",IDC_STATIC,157,208,41,8
+    LTEXT           "服务组件名：",IDC_STATIC,14,238,49,8
+    LTEXT           "客户端进程：",IDC_STATIC,149,238,49,8
+    LTEXT           "组件描述：",IDC_STATIC,22,253,41,8
+    LTEXT           "类型标识：",IDC_STATIC,158,17,40,8
+    LTEXT           "单元积分：",IDC_STATIC,158,61,40,8
+    GROUPBOX        "比赛配置：",IDC_STATIC,4,160,286,31
+    CONTROL         "限制比赛局数：",IDC_LIMIT_DRAW,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,22,174,72,10
+    CONTROL         "由管理员控制开始",IDC_CONTROL_START,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,156,174,80,10
+    EDITTEXT        IDC_MATCH_DRAW,94,172,43,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    GROUPBOX        "高级配置：",IDC_STATIC,3,273,286,88
+    LTEXT           "税收:",IDC_STATIC,12,287,27,8
+    EDITTEXT        IDC_EDIT_RATIO,44,285,40,14,ES_AUTOHSCROLL
+    LTEXT           "(百分比)",IDC_STATIC,89,287,33,8
+    LTEXT           "最低积分：",IDC_STATIC,11,325,40,8
+    LTEXT           "最高积分：",IDC_STATIC,12,343,40,8
+    EDITTEXT        IDC_EDIT_HighScore,60,341,57,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LessScore,59,322,57,14,ES_AUTOHSCROLL
+    LTEXT           "防作弊:",IDC_STATIC,11,305,42,8
+    EDITTEXT        IDC_EDIT_FZB,59,301,55,14,ES_AUTOHSCROLL
+    LTEXT           "自动排位1,禁止同IP同座2,禁止聊天4",IDC_STATIC,133,304,143,8
+END
+
+IDD_SYSTEM_OPTION DIALOGEX 0, 0, 286, 227
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统配置："
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_USER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,67,19,74,12,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_PORT,67,35,74,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_NAME,67,51,74,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_USER,202,19,74,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_DATABASE_PASS,202,35,74,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_SERVER_DATABASE_IP,"SysIPAddress32",WS_TABSTOP,67,87,74,12,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_PORT,67,103,74,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_NAME,67,119,74,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_USER,202,87,74,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SERVER_DATABASE_PASS,202,103,74,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "确定",IDOK,64,205,47,14
+    PUSHBUTTON      "取消",IDCANCEL,175,205,47,14
+    LTEXT           "数据库地址：",-1,14,21,49,8
+    LTEXT           "数据库用户：",-1,149,21,49,8
+    LTEXT           "数据库密码：",-1,149,37,49,8
+    LTEXT           "数据库名字：",-1,14,54,49,8
+    LTEXT           "数据库端口：",-1,14,38,49,8
+    GROUPBOX        "登陆数据库配置：",-1,5,4,277,65
+    LTEXT           "数据库地址：",-1,14,89,49,8
+    LTEXT           "数据库用户：",-1,149,89,49,8
+    LTEXT           "数据库密码：",-1,149,105,49,8
+    LTEXT           "数据库名字：",-1,14,122,49,8
+    LTEXT           "数据库端口：",-1,14,106,49,8
+    GROUPBOX        "信息数据库配置：",-1,5,72,277,65
+    GROUPBOX        "其他配置：",-1,5,141,277,35
+    CONTROL         "",IDC_CENTER_SERVER_IP,"SysIPAddress32",WS_TABSTOP,67,154,74,12,WS_EX_CLIENTEDGE
+    LTEXT           "中心服务器：",-1,14,156,49,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 7,1,1,0
+ PRODUCTVERSION 7,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "游戏服务装载器"
+            VALUE "FileVersion", "7, 1, 1, 0"
+            VALUE "InternalName", "ServiceLoader.exe"
+            VALUE "OriginalFilename", "ServiceLoader.exe"
+            VALUE "ProductName", "游戏服务装载器"
+            VALUE "ProductVersion", "7, 1, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ServiceLoader.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

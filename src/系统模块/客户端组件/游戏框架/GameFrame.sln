@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "сно╥©Р╪э", "GameFrame.vcproj", "{D6452141-70F6-4857-8D60-AF2485F75A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6452141-70F6-4857-8D60-AF2485F75A40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6452141-70F6-4857-8D60-AF2485F75A40}.Debug|Win32.Build.0 = Debug|Win32
+		{D6452141-70F6-4857-8D60-AF2485F75A40}.Release|Win32.ActiveCfg = Release|Win32
+		{D6452141-70F6-4857-8D60-AF2485F75A40}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

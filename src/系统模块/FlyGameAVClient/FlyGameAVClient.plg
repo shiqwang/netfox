@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FlyGameAVClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/FlyGameAVClient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\FlyAV\FlyGameAVClient\CaptureVideo.cpp"
+"F:\FlyAV\FlyGameAVClient\CodecMgr.cpp"
+"F:\FlyAV\FlyGameAVClient\FlyGameAVClient.cpp"
+"F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp"
+"F:\FlyAV\FlyGameAVClient\PlayerDataManager.cpp"
+"F:\FlyAV\FlyGameAVClient\Test.cpp"
+"F:\FlyAV\FlyGameAVClient\Test2.cpp"
+"F:\FlyAV\FlyGameAVClient\UtilitFun.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCB.tmp" 
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/FlyGameAVClient.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\FlyAV\FlyGameAVClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCC.tmp" 
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCD.tmp" with contents
+[
+../Lib/FlyNetProtocolSMany.lib strmbasd.lib quartz.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib ole32.lib winmm.lib msacm32.lib olepro32.lib oleaut32.lib advapi32.lib uuid.lib strmiids.lib g729a.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/FlyGameAVClient.pdb" /debug /machine:I386 /def:".\FlyGameAVClient.def" /out:"Debug/FlyGameAVClient.dll" /implib:"Debug/FlyGameAVClient.lib" /pdbtype:sept 
+.\Debug\CaptureVideo.obj
+.\Debug\CodecMgr.obj
+.\Debug\FlyGameAVClient.obj
+.\Debug\FlyMsgManager.obj
+.\Debug\PlayerDataManager.obj
+.\Debug\StdAfx.obj
+.\Debug\Test.obj
+.\Debug\Test2.obj
+.\Debug\UtilitFun.obj
+.\Debug\FlyGameAVClient.res
+]
+Creating command line "link.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCD.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+FlyMsgManager.cpp
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(655) : warning C4101: 'avType' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(656) : warning C4101: 'poInt' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(1020) : warning C4101: 'portInt' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(1019) : warning C4101: 'pszRemoteSockAddr' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(1225) : warning C4101: 'avType' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(1226) : warning C4101: 'poInt' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(1757) : warning C4101: 'portInt' : unreferenced local variable
+F:\FlyAV\FlyGameAVClient\FlyMsgManager.cpp(1756) : warning C4101: 'pszRemoteSockAddr' : unreferenced local variable
+Generating Code...
+Skipping... (no relevant changes detected)
+CaptureVideo.cpp
+CodecMgr.cpp
+FlyGameAVClient.cpp
+PlayerDataManager.cpp
+Test.cpp
+Test2.cpp
+UtilitFun.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCE.tmp" with contents
+[
+/nologo /o"Debug/FlyGameAVClient.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\CaptureVideo.sbr
+.\Debug\CodecMgr.sbr
+.\Debug\FlyGameAVClient.sbr
+.\Debug\FlyMsgManager.sbr
+.\Debug\PlayerDataManager.sbr
+.\Debug\Test.sbr
+.\Debug\Test2.sbr
+.\Debug\UtilitFun.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSPCE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FlyGameAVClient.dll - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>

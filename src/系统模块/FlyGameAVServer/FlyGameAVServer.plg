@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FlyGameAVServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FlyGameAVServer.res" /d "_DEBUG" "F:\FlyAV\FlyGameAVServer\FlyGameAVServer.rc"" 
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/FlyGameAVServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\FlyAV\FlyGameAVServer\FlyGameAVServer.cpp"
+"F:\FlyAV\FlyGameAVServer\FlyGameAVServerDoc.cpp"
+"F:\FlyAV\FlyGameAVServer\FlyGameAVServerView.cpp"
+"F:\FlyAV\FlyGameAVServer\FlyMsgManager.cpp"
+"F:\FlyAV\FlyGameAVServer\MainFrm.cpp"
+"F:\FlyAV\FlyGameAVServer\PlayerDataManager.cpp"
+"F:\FlyAV\FlyGameAVServer\UtilitFun.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP12.tmp" 
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/FlyGameAVServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\FlyAV\FlyGameAVServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP13.tmp" 
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+../Lib/FlyNetProtocolSMany.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FlyGameAVServer.pdb" /debug /machine:I386 /out:"Debug/FlyGameAVServer.exe" /pdbtype:sept 
+.\Debug\FlyGameAVServer.obj
+.\Debug\FlyGameAVServerDoc.obj
+.\Debug\FlyGameAVServerView.obj
+.\Debug\FlyMsgManager.obj
+.\Debug\MainFrm.obj
+.\Debug\PlayerDataManager.obj
+.\Debug\StdAfx.obj
+.\Debug\UtilitFun.obj
+.\Debug\FlyGameAVServer.res
+]
+Creating command line "link.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP14.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FlyGameAVServer.cpp
+FlyGameAVServerDoc.cpp
+FlyGameAVServerView.cpp
+FlyMsgManager.cpp
+MainFrm.cpp
+F:\FlyAV\FlyGameAVServer\MainFrm.cpp(148) : warning C4101: 'portInt' : unreferenced local variable
+PlayerDataManager.cpp
+UtilitFun.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+Creating temporary file "C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+/nologo /o"Debug/FlyGameAVServer.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\FlyGameAVServer.sbr
+.\Debug\FlyGameAVServerDoc.sbr
+.\Debug\FlyGameAVServerView.sbr
+.\Debug\FlyMsgManager.sbr
+.\Debug\MainFrm.sbr
+.\Debug\PlayerDataManager.sbr
+.\Debug\UtilitFun.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\mayuan\LOCALS~1\Temp\RSP16.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FlyGameAVServer.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

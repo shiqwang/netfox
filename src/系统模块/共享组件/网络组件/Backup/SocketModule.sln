@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketModule", "SocketModule.vcproj", "{40C0CCCB-BB89-4198-A607-2410FA125EDC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{40C0CCCB-BB89-4198-A607-2410FA125EDC}.Debug.ActiveCfg = Debug|Win32
+		{40C0CCCB-BB89-4198-A607-2410FA125EDC}.Debug.Build.0 = Debug|Win32
+		{40C0CCCB-BB89-4198-A607-2410FA125EDC}.Release.ActiveCfg = Release|Win32
+		{40C0CCCB-BB89-4198-A607-2410FA125EDC}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

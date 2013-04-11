@@ -1,0 +1,278 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileVersion", "7, 1, 1, 0"
+            VALUE "InternalName", "TSMJ.exe"
+            VALUE "OriginalFilename", "TSMJ.exe"
+            VALUE "ProductVersion", "7, 1, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_CARD_USER_BOTTOM    BITMAP                  "res\\CARD_USER_BOTTOM.bmp"
+IDB_CARD_TABLE_TOP      BITMAP                  "res\\CARD_TABLE_TOP.bmp"
+IDB_CARD_TABLE_RIGHT    BITMAP                  "res\\CARD_TABLE_RIGHT.bmp"
+IDB_CARD_TABLE_LEFT     BITMAP                  "res\\CARD_TABLE_LEFT.bmp"
+IDB_CARD_TABLE_BOTTOM   BITMAP                  "res\\CARD_TABLE_BOTTOM.bmp"
+IDB_CARD_HEAP_SINGLE_V  BITMAP                  "res\\CARD_HEAP_SINGLE_V.bmp"
+IDB_CARD_HEAP_SINGLE_H  BITMAP                  "res\\CARD_HEAP_SINGLE_H.bmp"
+IDB_CARD_HEAP_DOUBLE_V  BITMAP                  "res\\CARD_HEAP_DOUBLE_V.bmp"
+IDB_CARD_HEAP_DOUBLE_H  BITMAP                  "res\\CARD_HEAP_DOUBLE_H.bmp"
+IDB_CARD_BACK_V         BITMAP                  "res\\CARD_BACK_V.bmp"
+IDB_CARD_BACK_H         BITMAP                  "res\\CARD_BACK_H.bmp"
+IDB_CARD_USER_TOP       BITMAP                  "res\\CARD_USER_TOP.bmp"
+IDB_CARD_USER_RIGHT     BITMAP                  "res\\CARD_USER_RIGHT.bmp"
+IDB_CARD_USER_LEFT      BITMAP                  "res\\CARD_USER_LEFT.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_USER_FLAG           BITMAP                  "res\\USER_FLAG.bmp"
+IDB_BT_START            BITMAP                  "res\\BT_START.bmp"
+IDB_BT_TING_CARD           BITMAP                  "res\\BT_TING_CARD.bmp"
+IDB_BT_GIVEUP           BITMAP                  "res\\BT_GIVEUP.bmp"
+IDB_BT_CHIHU            BITMAP                  "res\\BT_CHIHU.bmp"
+IDB_ACTION_EXPLAIN      BITMAP                  "res\\ACTION_EXPLAIN.bmp"
+IDB_ACTION_BACK         BITMAP                  "res\\ACTION_BACK.bmp"
+IDB_WAIT_TIP            BITMAP                  "res\\WAIT_TIP.bmp"
+IDB_USER_ACTION         BITMAP                  "res\\USER_ACTION.bmp"
+IDB_OUT_CARD_TIP        BITMAP                  "res\\OUT_CARD_TIP.bmp"
+IDB_GAME_SCORE          BITMAP                  "res\\GAME_SCORE.bmp"
+IDB_CONTROL_TOP         BITMAP                  "res\\CONTROL_TOP.bmp"
+IDB_CONTROL_MID         BITMAP                  "res\\CONTROL_MID.bmp"
+IDB_CONTROL_BOTTOM      BITMAP                  "res\\CONTROL_BOTTOM.bmp"
+IDB_HUANG_ZHUANG        BITMAP                  "res\\HUANG_ZHUANG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CARD_CUR            CURSOR                  "res\\CARD_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+OUT_CARD                WAVE                    "res\\OUT_CARD.wav"
+GAME_WIN                WAVE                    "res\\GAME_WIN.wav"
+GAME_WARN               WAVE                    "res\\GAME_WARN.WAV"
+GAME_START              WAVE                    "res\\GAME_START.WAV"
+GAME_LOST               WAVE                    "res\\GAME_LOST.wav"
+GAME_END                WAVE                    "res\\GAME_END.WAV"
+A_TING                  WAVE                    "res\\A_TING.WAV"
+A_SHANG                 WAVE                    "res\\A_SHANG.WAV"
+A_PENG                  WAVE                    "res\\A_PENG.WAV"
+CHI_HU                  WAVE                    "res\\A_CHI_HU.WAV"
+A_GANG                  WAVE                    "res\\A_GANG.WAV"
+W_OUT_CARD                WAVE                    "res1\\OUT_CARD.wav"
+W_A_TING                  WAVE                    "res1\\A_TING.WAV"
+W_A_PENG                  WAVE                    "res1\\A_PENG.WAV"
+W_CHI_HU                  WAVE                    "res1\\A_CHI_HU.WAV"
+W_A_GANG                  WAVE                    "res1\\A_GANG.WAV"
+W_Z_7                     WAVE                    "wav1\\Z_7.WAV"
+W_Z_6                     WAVE                    "wav1\\Z_6.WAV"
+W_Z_5                     WAVE                    "wav1\\Z_5.WAV"
+W_Z_4                     WAVE                    "wav1\\Z_4.WAV"
+W_Z_3                     WAVE                    "wav1\\Z_3.WAV"
+W_Z_2                     WAVE                    "wav1\\Z_2.WAV"
+W_Z_1                     WAVE                    "wav1\\Z_1.WAV"
+W_W_9                     WAVE                    "res1\\W_9.WAV"
+W_W_8                     WAVE                    "res1\\W_8.WAV"
+W_W_7                     WAVE                    "res1\\W_7.WAV"
+W_W_6                     WAVE                    "res1\\W_6.WAV"
+W_W_5                     WAVE                    "res1\\W_5.WAV"
+W_W_4                     WAVE                    "res1\\W_4.WAV"
+W_W_3                     WAVE                    "res1\\W_3.WAV"
+W_W_2                     WAVE                    "res1\\W_2.WAV"
+W_W_1                     WAVE                    "res1\\W_1.WAV"
+W_T_9                     WAVE                    "res1\\T_9.WAV"
+W_T_8                     WAVE                    "res1\\T_8.WAV"
+W_T_7                     WAVE                    "res1\\T_7.WAV"
+W_T_6                     WAVE                    "res1\\T_6.WAV"
+W_T_5                     WAVE                    "res1\\T_5.WAV"
+W_T_4                     WAVE                    "res1\\T_4.WAV"
+W_T_3                     WAVE                    "res1\\T_3.WAV"
+W_T_2                     WAVE                    "res1\\T_2.WAV"
+W_T_1                     WAVE                    "res1\\T_1.WAV"
+W_S_9                     WAVE                    "res1\\S_9.WAV"
+W_S_8                     WAVE                    "res1\\S_8.WAV"
+W_S_7                     WAVE                    "res1\\S_7.WAV"
+W_S_6                     WAVE                    "res1\\S_6.WAV"
+W_S_5                     WAVE                    "res1\\S_5.WAV"
+W_S_4                     WAVE                    "res1\\S_4.WAV"
+W_S_3                     WAVE                    "res1\\S_3.WAV"
+W_S_2                     WAVE                    "res1\\S_2.WAV"
+W_S_1                     WAVE                    "res1\\S_1.WAV"
+Z_7                     WAVE                    "wav\\Z_7.WAV"
+Z_6                     WAVE                    "wav\\Z_6.WAV"
+Z_5                     WAVE                    "wav\\Z_5.WAV"
+Z_4                     WAVE                    "wav\\Z_4.WAV"
+Z_3                     WAVE                    "wav\\Z_3.WAV"
+Z_2                     WAVE                    "wav\\Z_2.WAV"
+Z_1                     WAVE                    "wav\\Z_1.WAV"
+W_9                     WAVE                    "res\\W_9.WAV"
+W_8                     WAVE                    "res\\W_8.WAV"
+W_7                     WAVE                    "res\\W_7.WAV"
+W_6                     WAVE                    "res\\W_6.WAV"
+W_5                     WAVE                    "res\\W_5.WAV"
+W_4                     WAVE                    "res\\W_4.WAV"
+W_3                     WAVE                    "res\\W_3.WAV"
+W_2                     WAVE                    "res\\W_2.WAV"
+W_1                     WAVE                    "res\\W_1.WAV"
+T_9                     WAVE                    "res\\T_9.WAV"
+T_8                     WAVE                    "res\\T_8.WAV"
+T_7                     WAVE                    "res\\T_7.WAV"
+T_6                     WAVE                    "res\\T_6.WAV"
+T_5                     WAVE                    "res\\T_5.WAV"
+T_4                     WAVE                    "res\\T_4.WAV"
+T_3                     WAVE                    "res\\T_3.WAV"
+T_2                     WAVE                    "res\\T_2.WAV"
+T_1                     WAVE                    "res\\T_1.WAV"
+S_9                     WAVE                    "res\\S_9.WAV"
+S_8                     WAVE                    "res\\S_8.WAV"
+S_7                     WAVE                    "res\\S_7.WAV"
+S_6                     WAVE                    "res\\S_6.WAV"
+S_5                     WAVE                    "res\\S_5.WAV"
+S_4                     WAVE                    "res\\S_4.WAV"
+S_3                     WAVE                    "res\\S_3.WAV"
+S_2                     WAVE                    "res\\S_2.WAV"
+S_1                     WAVE                    "res\\S_1.WAV"
+A_FILL                  WAVE                    "res\\A_FILL.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 174, 89
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,66,46,13
+    PUSHBUTTON      "取消",IDCANCEL,101,66,46,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,30,30,21,21
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,76,36,64,10
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

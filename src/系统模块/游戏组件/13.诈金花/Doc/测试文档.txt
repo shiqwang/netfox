@@ -1,0 +1,29 @@
+23:07 2007-12-9
+
+炸金花：
+（1）自动加入有问题----->ok
+（2）动画--谁羸了钱就跑向谁
+分数没有限制；60----》几百分
+看牌，标记看牌。。。。。。。---》翻倍----->
+
+
+梭哈
+---->天水拖拉机
+
+这是qq上的，ip限制
+http://www.tianshui.com.cn/news/styx/ 
+
+
+	ShowCardBackList();
+
+IDB_GOLD                BITMAP                  "res\\GOLD.bmp"
+
+IDB_KAN_PAI_LOG                BITMAP                  "res\\kanpailog.bmp"
+
+		m_ImageGold.SetLoadInfo(IDB_GOLD,GetModuleHandle(NULL));
+		
+		
+IDB_TITLE               BITMAP                  "res\\TITLE.bmp"	
+
+
+	LONG lGold=m_lTurnBasicGold+AddGold;     //add	

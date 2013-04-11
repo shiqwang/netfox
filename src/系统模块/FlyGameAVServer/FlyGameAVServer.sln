@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlyGameAVServer", "FlyGameAVServer.vcproj", "{EFF1E143-B5E4-4B35-A31B-B4EDA0902FEE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EFF1E143-B5E4-4B35-A31B-B4EDA0902FEE}.Debug.ActiveCfg = Debug|Win32
+		{EFF1E143-B5E4-4B35-A31B-B4EDA0902FEE}.Debug.Build.0 = Debug|Win32
+		{EFF1E143-B5E4-4B35-A31B-B4EDA0902FEE}.Release.ActiveCfg = Release|Win32
+		{EFF1E143-B5E4-4B35-A31B-B4EDA0902FEE}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

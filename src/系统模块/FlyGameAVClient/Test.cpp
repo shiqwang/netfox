@@ -1,0 +1,27 @@
+// Test.cpp: implementation of the CTest class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "FlyGameAVClient.h"
+#include "Test.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CTest::CTest()
+{
+
+}
+
+CTest::~CTest()
+{
+
+}

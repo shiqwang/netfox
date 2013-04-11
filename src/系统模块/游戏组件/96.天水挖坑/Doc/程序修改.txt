@@ -1,0 +1,39 @@
+//游戏开始
+bool CGameClientDlg::OnSubGameStart(const void * pBuffer, WORD wDataSize)
+
+	WORD				 			wLandUser;							//地主玩家
+	BYTE							bLandScore;							//地主分数
+	
+
+	//自动过牌判断
+//输入：牌，个数
+//返回：如果真则过
+	bool AutoCheckCard();
+
+//点数的大小： 3>2>A>K>Q>J>10>9>8>7>6>5>4
+//逻辑数值
+BYTE CGameLogic::GetCardLogicValue(BYTE bCardData)
+
+			BYTE bLogicValue=GetCardLogicValue(bCardData[0]);
+
+BYTE m_GetCard=m_GameLogic.GetCardLogicValue(m_bHandCardData[i]);
+
+#define CT_THREE					3									//三条类型	ok
+#define CT_BOMB_CARD				11									//炸弹类型 4个一样的 ok
+#define CT_ONE_LINE			
+
+AutoCheckCard()
+
+		4									//单连类型	OK abc
+
+
+
+			//有点停顿
+			//有点停顿
+			if ( 2 == m_WhichOnsKindCard)
+			{
+				strTemp.Format("2 AutoOutCard m_WhichOnsKindCard=%d", m_WhichOnsKindCard);
+				theApp.WriteLog(strFile, strTemp);
+				Sleep(sleepInt);
+			}
+			OnPassCard(0,0);

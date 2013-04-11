@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxRes.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxRes.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""Res\\GameFrame.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxRes.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 7,1,1,0
+ PRODUCTVERSION 7,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "游戏客户端框架"
+            VALUE "FileVersion", "7, 1, 1, 0"
+            VALUE "InternalName", "GameFrame.dll"
+            VALUE "OriginalFilename", "GameFrame.dll"
+            VALUE "ProductName", "游戏客户端框架"
+            VALUE "ProductVersion", "7, 1, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GAME_FRAME DIALOGEX 0, 0, 425, 303
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏框架："
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_VOR_SPLITER,"Static",SS_BLACKFRAME | SS_NOTIFY,262,0,3,301
+    LTEXT           "对方视频",IDC_STATIC_VIDEO_REMOTE,23,26,65,53,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "对方视频",IDC_STATIC_VIDEO_REMOTE3,77,8,65,53,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "对方视频",IDC_STATIC_VIDEO_REMOTE1,113,178,65,53,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    LTEXT           "SELF",IDC_STATIC_VIDEO,133,33,124,107,NOT WS_VISIBLE,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_MYSELF,105,20,70,8,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_ONE,105,20,70,8,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_TWO,145,15,70,8,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_THREE,145,26,70,8,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_FOUR,149,37,70,8,NOT WS_VISIBLE
+    LTEXT           "对方视频",IDC_STATIC_VIDEO_REMOTE2,21,172,65,53,NOT WS_VISIBLE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_BUTTON_HIDE_LIST,7,266,81,11,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BUTTON_YU_YIN,113,255,81,11,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_GAME_OPTION,17,106,46,13
+    PUSHBUTTON      "",IDC_GAME_RULE,70,106,46,13
+    PUSHBUTTON      "",IDC_QUIT_GAME,46,128,46,13
+END
+
+IDD_FRAME_CONTROL DIALOGEX 0, 0, 188, 322
+STYLE DS_SETFONT | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_USER_LIST,"SysListView32",LVS_REPORT | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | WS_TABSTOP,3,4,181,107
+    CONTROL         "",IDC_CHAT_MESSAGE,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_NUMBER | WS_VSCROLL | WS_TABSTOP,3,133,179,93
+    EDITTEXT        IDC_CHAT_INPUT,71,305,56,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "",IDC_SEND_CHAT,153,305,11,11
+    PUSHBUTTON      "",IDC_EXPRESSION,24,288,12,12
+    PUSHBUTTON      "",IDC_PHRASE,7,288,12,12,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_COLOR_SET,41,288,12,12
+    PUSHBUTTON      "",IDC_CLEAN_SCREEN,61,288,12,12
+    COMBOBOX        IDC_CHAT_OBJECT,3,305,58,107,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+END
+
+IDD_DLG_DT_SOUND DIALOGEX 0, 0, 186, 185
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_SOUND,"SysListView32",LVS_LIST | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,18,26,136,75
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+IDB_MYSELF_VIDEO_PIC           BITMAP                  "Res\\SelfVideoFrame.bmp"
+IDB_VIDEO_PIC           BITMAP                  "Res\\PicVideo.bmp"
+IDB_USER_TIMER          BITMAP                  "Res\\USER_TIMER.bmp"
+IDB_USER_READY          BITMAP                  "Res\\USER_READY.bmp"
+IDB_USER_STATUS         BITMAP                  "Res\\USER_STATUS.bmp"
+IDB_LEFT_VIEW_RTM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RTM.bmp"
+IDB_LEFT_VIEW_RT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RT.bmp"
+IDB_LEFT_VIEW_RM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RM.bmp"
+IDB_LEFT_VIEW_RBM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RBM.bmp"
+IDB_LEFT_VIEW_RB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RB.bmp"
+IDB_LEFT_VIEW_MT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MT.bmp"
+IDB_LEFT_VIEW_MM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MM.bmp"
+IDB_LEFT_VIEW_MB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MB.bmp"
+IDB_LEFT_VIEW_LTM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LTM.bmp"
+IDB_LEFT_VIEW_LT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LT.bmp"
+IDB_LEFT_VIEW_LM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LM.bmp"
+IDB_LEFT_VIEW_LBM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LBM.bmp"
+IDB_LEFT_VIEW_LB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LB.bmp"
+IDB_BT_EXPESSION        BITMAP                  "Res\\BT_EXPESSION.bmp"
+IDB_BT_COLOR_SET        BITMAP                  "Res\\BT_COLOR_SET.bmp"
+IDB_BT_CLEAN_SCREEN     BITMAP                  "Res\\BT_CLEAN_SCREEN.bmp"
+IDB_BT_SEND_CHAT        BITMAP                  "res\\BT_SEND_CHAT.bmp"
+IDB_VIEW_T              BITMAP                  "res\\VIEW_T.bmp"
+IDB_VIEW_B              BITMAP                  "res\\VIEW_B.bmp"
+IDB_VIEW_L              BITMAP                  "res\\VIEW_L.bmp"
+IDB_VIEW_R              BITMAP                  "res\\VIEW_R.bmp"
+IDB_VIEW_BL             BITMAP                  "res\\VIEW_BL.bmp"
+IDB_VIEW_TL             BITMAP                  "res\\VIEW_TL.bmp"
+IDB_VIEW_BR             BITMAP                  "res\\VIEW_BR.bmp"
+IDB_VIEW_TR             BITMAP                  "res\\VIEW_TR.bmp"
+IDB_BT_OPTION           BITMAP                  "res\\BT_OPTION.bmp"
+IDB_BT_QUIT             BITMAP                  "res\\BT_QUIT.bmp"
+IDB_BT_GAME_RULE        BITMAP                  "res\\BT_GAME_RULE.bmp"
+IDB_BITMAP_KUANG        BITMAP                  "res\\left_view\\bitmap_kuang.bmp"
+IDB_BITMAP_MYSELF_KUANG        BITMAP                  "res\\left_view\\bitmap_myself_kuang.bmp"
+IDB_HIDE_LIST           BITMAP                  "res\\Hide_List.bmp"
+IDB_OP_BAK              BITMAP                  "Res\\op_bak.bmp"
+IDB_YU_YIN              BITMAP                  "Res\\qjyy.bmp"
+IDB_PIC_DT_SOUND        BITMAP                  "Res\\dt_sound.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GAME_FRAME, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 302
+    END
+
+    IDD_DLG_DT_SOUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_JIAN                CURSOR                  "res\\left_view\\JIAN.cur"
+IDC_X                   CURSOR                  "res\\left_view\\XX.cur"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "Res\GameFrame.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxRes.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

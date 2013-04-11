@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="304"
+   name=""
+   committed-date="2006-07-05T17:08:17.606540Z"
+   url="svn://192.168.0.62/svn/marcogame/%E8%B7%91%E5%BE%97%E5%BF%AB/%E6%B8%B8%E6%88%8F%E5%AE%A2%E6%88%B7%E7%AB%AF/Res"
+   last-author="barry"
+   kind="dir"
+   uuid="fd030457-3a2a-f041-b6ef-a2cd0aa18087"
+   revision="322"/>
+<entry
+   committed-rev="286"
+   name="THREE_SCORE.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="26358afa1192a4bec621239de450c395"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="TWO_SCORE.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="f552984d1af11c65c36008a6499a7902"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GAME_WIN.wav"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="7cc28fda98235c75b8bf972c97badd5c"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="CARD.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="4138962ff7e882efa6e6cecc26da81a1"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="ONE_SCORE.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="cd4a4365527b52693a2cfc48601f6fa8"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="OUT_CARD.wav"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="b81338369ed5cacb23c17c83e4508773"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GAME_WARN.WAV"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="12ebee0168865f7a341b83c5d3e5d5f2"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="BOMB.bmp"
+   text-time="2006-07-02T08:07:34.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="d9bfc440a4ff46e2cf9035abf18e2841"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="AUTO_OUT_CARD.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="98c7456e5a69cb41b623bc21a69f0117"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GAME_LOGO.bmp"
+   text-time="2006-06-26T01:10:04.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="859365a1ff6e7b7d9e165c43bcf9a5d0"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="VIEW_BACK.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="bcd3594c5916681d89a21a81c4e2aad0"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="MOST_CARD.wav"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="ddcab285232967509f796d0cc3b63283"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="304"
+   name="timerarrow.bmp"
+   text-time="2006-07-06T01:02:00.000000Z"
+   committed-date="2006-07-05T17:08:17.606540Z"
+   checksum="c8c4932cdb8b7e5925c11449531e2bed"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-06T01:02:00.000000Z"/>
+<entry
+   committed-rev="286"
+   name="START.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="707472ee66df36982a44e762074ef31b"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="CARD_CUR.cur"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="294192d062c0d031208a12d400b9b605"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GIVE_UP.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="3fa1d7074cb6777bb3a436c14e37e9b0"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="CARD_800.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="38190a2a6daef59360be9764607a701a"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="304"
+   name="timerback.bmp"
+   text-time="2006-07-06T01:02:00.000000Z"
+   committed-date="2006-07-05T17:08:17.606540Z"
+   checksum="e114128c57f27651c9b695f45732e4c8"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-06T01:02:00.000000Z"/>
+<entry
+   committed-rev="286"
+   name="BANKER.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="1aec67d61f6e5abe2dca89f4e90fb1f9"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GameClient.ico"
+   text-time="2006-06-26T01:10:04.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="cd5eeccb08c251cf4ce8ea80e790def4"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GAME_START.WAV"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="0c80e62b6c93f8e0fe9e6c23ad276661"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="PASS.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="e88cb09d283ca337121a04e97d3ee019"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="VIEW_CENTER.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="a6981cf1c991c94bcb16fd878ab41aa8"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="SCORE.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="5445cf8d4b687991c47db60d8bd7668f"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GAME_END.WAV"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="9f73080c575ad208af1c31800d56f26b"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GameClient.rc2"
+   text-time="2006-06-26T01:10:04.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="b514d211e93ba62790aff8f313f21d74"
+   last-author="barry"
+   kind="file"/>
+<entry
+   committed-rev="286"
+   name="GAME_LOST.wav"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="63931a127e1ffb60300bf1642197e41e"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+<entry
+   committed-rev="286"
+   name="bitmap2.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="b942dc49bc4e38b0f78f7a1771eba9ca"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GAME_END.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="3e70ab4f4750ce60e88d1ead187c16ce"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:50.000000Z"/>
+<entry
+   committed-rev="286"
+   name="GameClient.manifest"
+   text-time="2006-06-26T01:10:04.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="64e3e742656f8e5b6ca0c0426f3e6b81"
+   last-author="barry"
+   kind="file"/>
+<entry
+   committed-rev="286"
+   name="OUT_CARD.bmp"
+   text-time="2006-07-01T12:41:24.000000Z"
+   committed-date="2006-07-04T05:45:04.098556Z"
+   checksum="444393646799cc56d84db2642ba1c1d5"
+   last-author="barry"
+   kind="file"
+   prop-time="2006-07-04T05:44:52.000000Z"/>
+</wc-entries>

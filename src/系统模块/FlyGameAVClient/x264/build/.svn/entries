@@ -1,0 +1,31 @@
+8
+
+dir
+664
+svn://svn.videolan.org/x264/trunk/build
+svn://svn.videolan.org/x264
+
+
+
+2007-06-05T18:32:13.130652Z
+657
+aizvorski
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+df754926-b1dd-0310-bc7b-ec298dee348c
+
+win32
+dir
+

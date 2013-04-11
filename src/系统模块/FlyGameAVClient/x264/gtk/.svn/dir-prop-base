@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 65
+x264_gtk_encode
+test
+*.a
+*.exe
+x264_icon.h
+config.mak
+*.mo
+*.pot
+
+END

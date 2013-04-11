@@ -1,0 +1,4 @@
+#define CPARAM_QCIF 0
+
+#define CPARAM_INTER TRUE
+#define CPARAM_INTRA FALSE

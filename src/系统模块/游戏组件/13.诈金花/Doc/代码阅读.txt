@@ -1,0 +1,46 @@
+ID_THREELEAF
+
+//开始模式
+enum enStartMode
+{
+	enStartMode_FullReady,				//满人开始
+	enStartMode_AllReady,				//所有准备
+	enStartMode_Symmetry,				//对称开始
+	enStartMode_TimeControl,			//时间控制
+};
+
+//游戏消息处理
+bool __cdecl CTableFrameSink::OnGameMessage
+
+//发送场景
+bool __cdecl CTableFrameSink::SendGameScene(
+
+
+//游戏结束
+bool __cdecl CTableFrameSink::OnEventGameEnd
+
+
+//游戏开始
+bool __cdecl CTableFrameSink::OnEventGameStart()
+
+
+//开始模式
+enum enStartMode
+{
+	enStartMode_FullReady,				//满人开始
+	enStartMode_AllReady,				//所有准备
+	enStartMode_Symmetry,				//对称开始
+	enStartMode_TimeControl,			//时间控制
+};
+
+
+//游戏桌子回调接口
+interface ITableFrameSink : public IUnknownEx
+
+
+	case SUB_S_KANPAI:     //看牌
+		{
+			return OnSubKanPai(pBuffer, wDataSize);
+
+	bool                            mArrayKanPai[GAME_PLAYER+1];        //是否看牌状态 ADD
+	for (int i=0;i<GAME_PLAYER;i++)m_GameClientView.m_CardControl[i].SetCardData(NULL,0);

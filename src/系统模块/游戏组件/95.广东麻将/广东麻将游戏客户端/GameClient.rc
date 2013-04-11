@@ -1,0 +1,329 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GameClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "广东麻将游戏客户端"
+            VALUE "FileVersion", "1, 0, 0, 0"
+            VALUE "InternalName", "GD_Mj.exe"
+            VALUE "OriginalFilename", "GD_Mj.exe"
+            VALUE "ProductName", "广东麻将游戏客户端"
+            VALUE "ProductVersion", "1, 0, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+GAME_LOGO               BITMAP                  "res\\GAME_LOGO.bmp"
+IDB_VIEW_BACK           BITMAP                  "res\\VIEW_BACK.bmp"
+IDB_START               BITMAP                  "res\\START.bmp"
+IDB_CHI                 BITMAP                  "res\\button\\chi.bmp"
+IDB_PENG                BITMAP                  "res\\button\\peng.bmp"
+IDB_GANG                BITMAP                  "res\\button\\gang.bmp"
+IDB_HU                  BITMAP                  "res\\button\\hu.bmp"
+IDB_TING                BITMAP                  "res\\button\\ting.bmp"
+IDB_GIVE_UP             BITMAP                  "res\\button\\giveup.bmp"
+IDB_BT_BACK             BITMAP                  "res\\button\\buttonBk.bmp"
+IDB_BT_SHOWMINI         BITMAP                  "res\\button\\showMini.bmp"
+IDB_BT_CANCEL           BITMAP                  "res\\button\\cancel.bmp"
+IDB_BT_GAMESET          BITMAP                  "res\\button\\gameSet.bmp"
+IDB_MJ_TOUCH02          BITMAP                  "res\\MjTouch13.bmp"
+IDB_MJ_TOUCH13          BITMAP                  "res\\MjTouch24.bmp"
+IDB_MJ_OUT0             BITMAP                  "res\\MjOut01.bmp"
+IDB_MJ_OUT1             BITMAP                  "res\\MjOut02.bmp"
+IDB_MJ_OUT2             BITMAP                  "res\\MjOut03.bmp"
+IDB_MJ_OUT3             BITMAP                  "res\\MjOut04.bmp"
+IDB_MJ_HU2              BITMAP                  "res\\MjHu03.bmp"
+IDB_MJ_FACE0            BITMAP                  "res\\MjFace1.bmp"
+IDB_MJ_FACE1            BITMAP                  "res\\MjFace2.bmp"
+IDB_MJ_FACE2            BITMAP                  "res\\MjFace3.bmp"
+IDB_MJ_FACE3            BITMAP                  "res\\MjFace4.bmp"
+IDB_MJ_BACK             BITMAP                  "res\\MjBack.bmp"
+IDB_MJ_FENGWEI          BITMAP                  "res\\FengWei.bmp"
+IDB_TIMERARROW          BITMAP                  "res\\timerarrow.bmp"
+IDB_TIMERBACK           BITMAP                  "res\\timerback.bmp"
+IDB_GAME_END            BITMAP                  "res\\end.bmp"
+IDB_MJ_MASK             BITMAP                  "res\\MjMask.bmp"
+IDB_FENG_QUAN           BITMAP                  "res\\QuanFeng.bmp"
+IDB_FENG_QUAN_BK        BITMAP                  "res\\QuanFengBk.bmp"
+IDB_ACTION_OUT          BITMAP                  "res\\Action\\Out.bmp"
+IDB_ACTION_OUTFLAG      BITMAP                  "res\\Action\\OutFlag.bmp"
+IDB_ACTION_DICE         BITMAP                  "res\\Action\\Dice.bmp"
+IDB_ACTION_DICE2        BITMAP                  "res\\Action\\Dice2.bmp"
+IDB_ACTION_OPTION       BITMAP                  "res\\Action\\Option.bmp"
+IDB_EMPTY               BITMAP                  "res\\Empty.bmp"
+IDB_USER_READY          BITMAP                  "res\\USER_READY.bmp"
+IDB_ENT                 BITMAP                  "res\\结算\\ENT.bmp"
+IDB_TOL3                BITMAP                  "res\\结算\\TOL3.bmp"
+IDB_TOL                 BITMAP                  "res\\结算\\TOL.bmp"
+IDB_TOL2                BITMAP                  "res\\结算\\TOL2.bmp"
+IDB_TOL4                BITMAP                  "res\\结算\\TOL4.bmp"
+IDB_BACK                BITMAP                  "res\\back.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BITAMP
+//
+
+IDB_TING                BITAMP                  "res\\button\\ting.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION DIALOGEX 0, 0, 175, 135
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,114,47,14
+    PUSHBUTTON      "取消",IDCANCEL,100,114,47,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,117,40,21,21
+    CONTROL         "允许声音效果",IDC_ENABLE_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,19,40,64,10
+    COMBOBOX        IDC_CARD_SPACE,63,89,31,181,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "扑克间距为",IDC_STATIC,18,91,41,8
+    LTEXT           "象素",IDC_STATIC,100,91,17,8
+    CONTROL         "顺时针顺序出牌",IDC_DEASIL_ORDER,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,19,55,72,10
+    GROUPBOX        "常规配置：",IDC_STATIC,8,26,160,46
+    GROUPBOX        "扑克配置：",IDC_STATIC,8,76,160,33
+END
+
+IDD_GAME_SCORE DIALOGEX 0, 0, 198, 103
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+IDD_GAME_FRAME DIALOGEX 0, 0, 425, 303
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GAME_FRAME, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 302
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+OUT_CARD                WAVE                    "res\\wav\\OUT_CARD.wav"
+GAME_END                WAVE                    "res\\wav\\GAME_END.WAV"
+GAME_LOST               WAVE                    "res\\wav\\GAME_LOST.wav"
+GAME_START              WAVE                    "res\\wav\\GAME_START.WAV"
+GAME_WIN                WAVE                    "res\\wav\\GAME_WIN.wav"
+GANG1                   WAVE                    "res\\wav\\women\\GANG1.WAV"
+HU3                     WAVE                    "res\\wav\\women\\HU3.WAV"
+PENG1                   WAVE                    "res\\wav\\women\\PENG1.WAV"
+CHI1                    WAVE                    "res\\wav\\women\\CHI1.WAV"
+1饼                     WAVE                    "res\\wav\\women\\1饼.wav"
+1条                     WAVE                    "res\\wav\\women\\1条.wav"
+1万                     WAVE                    "res\\wav\\women\\1万.wav"
+2饼                     WAVE                    "res\\wav\\women\\2饼.wav"
+2条                     WAVE                    "res\\wav\\women\\2条.wav"
+2万                     WAVE                    "res\\wav\\women\\2万.wav"
+3饼                     WAVE                    "res\\wav\\women\\3饼.wav"
+3条                     WAVE                    "res\\wav\\women\\3条.wav"
+3万                     WAVE                    "res\\wav\\women\\3万.wav"
+4饼                     WAVE                    "res\\wav\\women\\4饼.wav"
+4条                     WAVE                    "res\\wav\\women\\4条.wav"
+4万                     WAVE                    "res\\wav\\women\\4万.wav"
+5饼                     WAVE                    "res\\wav\\women\\5饼.wav"
+5条                     WAVE                    "res\\wav\\women\\5条.wav"
+5万                     WAVE                    "res\\wav\\women\\5万.wav"
+6饼                     WAVE                    "res\\wav\\women\\6饼.wav"
+6条                     WAVE                    "res\\wav\\women\\6条.wav"
+6万                     WAVE                    "res\\wav\\women\\6万.wav"
+7饼                     WAVE                    "res\\wav\\women\\7饼.wav"
+7条                     WAVE                    "res\\wav\\women\\7条.wav"
+7万                     WAVE                    "res\\wav\\women\\7万.wav"
+8饼                     WAVE                    "res\\wav\\women\\8饼.wav"
+8条                     WAVE                    "res\\wav\\women\\8条.wav"
+8万                     WAVE                    "res\\wav\\women\\8万.wav"
+9饼                     WAVE                    "res\\wav\\women\\9饼.wav"
+9条                     WAVE                    "res\\wav\\women\\9条.wav"
+9万                     WAVE                    "res\\wav\\women\\9万.wav"
+白                      WAVE                    "res\\wav\\women\\白.wav"
+北风                    WAVE                    "res\\wav\\women\\北风.wav"
+东风                    WAVE                    "res\\wav\\women\\东风.wav"
+发                      WAVE                    "res\\wav\\women\\发.wav"
+南风                    WAVE                    "res\\wav\\women\\南风.wav"
+西风                    WAVE                    "res\\wav\\women\\西风.wav"
+中                      WAVE                    "res\\wav\\women\\中.wav"
+1BING                   WAVE                    "res\\wav\\man\\1bing.wav"
+1TIAO                   WAVE                    "res\\wav\\man\\1tiao.wav"
+1WAN                    WAVE                    "res\\wav\\man\\1wan.wav"
+2BING                   WAVE                    "res\\wav\\man\\2bing.wav"
+2TIAO                   WAVE                    "res\\wav\\man\\2tiao.wav"
+2WAN                    WAVE                    "res\\wav\\man\\2wan.wav"
+3BING                   WAVE                    "res\\wav\\man\\3bing.wav"
+3TIAO                   WAVE                    "res\\wav\\man\\3tiao.wav"
+3WAN                    WAVE                    "res\\wav\\man\\3wan.wav"
+4BING                   WAVE                    "res\\wav\\man\\4bing.wav"
+4TIAO                   WAVE                    "res\\wav\\man\\4tiao.wav"
+4WAN                    WAVE                    "res\\wav\\man\\4wan.wav"
+5BING                   WAVE                    "res\\wav\\man\\5bing.wav"
+5TIAO                   WAVE                    "res\\wav\\man\\5tiao.wav"
+5WAN                    WAVE                    "res\\wav\\man\\5wan.wav"
+6BING                   WAVE                    "res\\wav\\man\\6bing.wav"
+6TIAO                   WAVE                    "res\\wav\\man\\6tiao.wav"
+6WAN                    WAVE                    "res\\wav\\man\\6wan.wav"
+7BING                   WAVE                    "res\\wav\\man\\7bing.wav"
+7TIAO                   WAVE                    "res\\wav\\man\\7tiao.wav"
+7WAN                    WAVE                    "res\\wav\\man\\7wan.wav"
+8BING                   WAVE                    "res\\wav\\man\\8bing.wav"
+8TIAO                   WAVE                    "res\\wav\\man\\8tiao.wav"
+8WAN                    WAVE                    "res\\wav\\man\\8wan.wav"
+9BING                   WAVE                    "res\\wav\\man\\9bing.wav"
+9TIAO                   WAVE                    "res\\wav\\man\\9tiao.wav"
+9WAN                    WAVE                    "res\\wav\\man\\9wan.wav"
+BAI                     WAVE                    "res\\wav\\man\\bai.wav"
+CHI                     WAVE                    "res\\wav\\man\\chi.wav"
+FA                      WAVE                    "res\\wav\\man\\fa.wav"
+GANG                    WAVE                    "res\\wav\\man\\gang.wav"
+HU                      WAVE                    "res\\wav\\man\\hu.wav"
+PENG                    WAVE                    "res\\wav\\man\\peng.wav"
+ZHONG                   WAVE                    "res\\wav\\man\\zhong.wav"
+北FENG                  WAVE                    "res\\wav\\man\\北feng.wav"
+东FENG                  WAVE                    "res\\wav\\man\\东feng.wav"
+南FENG                  WAVE                    "res\\wav\\man\\南feng.wav"
+西FENG                  WAVE                    "res\\wav\\man\\西feng.wav"
+READY                   WAVE                    "res\\Ready.wav"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

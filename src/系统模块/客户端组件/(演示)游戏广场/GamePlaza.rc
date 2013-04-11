@@ -1,0 +1,550 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""Res\\GamePlaza.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "Res\\GamePlaza.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GAME_PLAZA DIALOGEX 0, 0, 436, 323
+STYLE DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_VOR_SPLITER,"Static",SS_BLACKFRAME | SS_NOTIFY,178,7,3,309
+    CONTROL         "",IDC_SERVER_LIST,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_SHOWSELALWAYS | TVS_TRACKSELECT | WS_TABSTOP,7,7,167,309
+END
+
+IDD_GAME_ROOM DIALOGEX 0, 0, 460, 327
+STYLE DS_SETFONT | DS_CENTER | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_CHAT_INPUT,293,309,141,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_USER_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | WS_TABSTOP,236,8,214,87
+    CONTROL         "",IDC_CHAT_MESSAGE,"RichEdit20A",ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_TABSTOP,235,127,216,160
+    CONTROL         "",IDC_VOR_SPLITER,"Static",SS_BLACKFRAME | SS_NOTIFY,225,7,3,309
+    PUSHBUTTON      "",IDC_AUTO_SIT,187,7,34,13
+    PUSHBUTTON      "",IDC_SEND_CHAT,439,309,11,11
+    PUSHBUTTON      "",IDC_EXPRESSION,250,291,12,12
+    PUSHBUTTON      "",IDC_PHRASE,233,291,12,12,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_COLOR_SET,267,291,12,12
+    PUSHBUTTON      "",IDC_CLEAN_SCREEN,287,291,12,12
+    PUSHBUTTON      "",IDC_FIND_USER,151,7,34,13
+    COMBOBOX        IDC_CHAT_OBJECT,231,307,58,107,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+END
+
+IDD_LOGON DIALOGEX 0, 0, 196, 192
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "登录服务器：",IDC_LOGIN_SERVER_LABEL,16,47,49,8
+    LTEXT           "游戏帐号：",IDC_ACCOUNT_LABEL,24,65,41,8
+    LTEXT           "游戏密码：",IDC_PASSWORD_LABEL,24,79,41,8,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_SERVER,67,45,96,122,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_ACCOUNTS,68,61,52,117,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_USER_ID,68,61,46,117,CBS_DROPDOWN | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PASSWORD,68,77,52,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "清除记录",IDC_DELETE_RECORD,124,61,46,14
+    CONTROL         "记住密码",IDC_REMEMBER_PASSWORD,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,123,79,46,10
+    PUSHBUTTON      "网络设置",IDC_NET_OPTION,8,114,43,14
+    DEFPUSHBUTTON   "登 录",IDOK,53,114,43,14
+    PUSHBUTTON      "取 消",IDCANCEL,99,114,43,14
+    PUSHBUTTON      "申请帐号",IDC_REGISTER,144,114,43,14
+    LTEXT           "类型：",IDC_STATIC,14,141,25,8
+    LTEXT           "地址：",IDC_STATIC,14,157,25,8
+    LTEXT           "用户：",IDC_STATIC,14,173,25,8
+    LTEXT           "端口：",IDC_STATIC,115,157,25,8
+    LTEXT           "密码：",IDC_STATIC,115,173,25,8
+    COMBOBOX        IDC_PROXY_TYPE,43,137,66,59,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PROXY_SERVER,43,155,66,12,ES_AUTOHSCROLL | WS_DISABLED,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PROXY_USER,43,173,66,12,ES_AUTOHSCROLL | WS_DISABLED,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PROXY_PORT,144,155,43,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PROXY_PASS,144,171,43,12,ES_PASSWORD | ES_AUTOHSCROLL | WS_DISABLED,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_BORDER,"Static",SS_ETCHEDHORZ | NOT WS_VISIBLE,7,135,181,1
+    LTEXT           "取回密码",IDC_GET_PASSWORD,82,95,33,8
+    LTEXT           "申请密码保护",IDC_PASSWORD_PROTECT,146,47,49,8,NOT WS_VISIBLE
+    LTEXT           "访问游戏网站",IDC_MAIN_PAGE,20,95,49,8
+    CONTROL         "",IDC_LOGON_TYPE,"SysTabControl32",TCS_TOOLTIPS,11,25,163,84
+    LTEXT           "申请帐号",IDC_ApplyAccount,152,143,33,8,NOT WS_VISIBLE
+END
+
+IDD_CONTROL_BAR DIALOGEX 0, 0, 528, 30
+STYLE DS_SETFONT | DS_3DLOOK | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "新宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_PLAZA,6,7,48,14
+    PUSHBUTTON      "",IDC_VIEW_ITEM1,58,7,48,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_VIEW_ITEM2,110,7,48,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_VIEW_ITEM3,165,7,48,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_VIEW_ITEM4,217,7,48,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_SWITCH_ACCOUNTS,319,7,48,14
+    PUSHBUTTON      "",IDC_SYSTEM_OPTION,371,7,48,14
+    PUSHBUTTON      "",IDC_COMPANION_MANAGER,423,7,48,14
+    PUSHBUTTON      "",IDC_QUIT_GAME,475,7,48,14
+END
+
+IDD_STATUS DIALOGEX 0, 0, 216, 33
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | WS_POPUP
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "取消",IDC_CLOSE,169,10,41,13,NOT WS_TABSTOP
+END
+
+IDD_SHORT_MESSAGE DIALOGEX 0, 0, 276, 223
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_SEND_MESSAGE,7,136,261,62,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "发送(&S)",IDC_SEND_SHORT,7,202,45,14
+    PUSHBUTTON      "",IDC_EXPRESSION,57,202,17,14
+    PUSHBUTTON      "关闭",IDC_CLOSE,223,202,45,14
+    CONTROL         "",IDC_RECV_MESSAGE,"RichEdit20A",ES_MULTILINE | ES_NOHIDESEL | ES_READONLY | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,27,261,104,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+END
+
+IDD_FIND_USER DIALOGEX 0, 0, 231, 179
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NAME,57,144,55,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_ACCID,57,160,55,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "查找(&F)",IDOK,123,159,42,13
+    PUSHBUTTON      "关闭(&C)",IDCANCEL,171,159,42,13
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,27,217,108,WS_EX_CLIENTEDGE
+    LTEXT           "用户名：",IDC_STATIC,19,146,33,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,12,139,207,1
+    LTEXT           "ID 号码：",IDC_STATIC,15,162,37,8
+END
+
+IDD_OPTION DIALOGEX 0, 0, 295, 242
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,176,222,50,14
+    PUSHBUTTON      "取消",IDCANCEL,235,222,50,14
+END
+
+IDD_OPTION_TABLE_RULE DIALOGEX 0, 0, 217, 176
+STYLE DS_SETFONT | DS_CENTER | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "限制最低胜率：",IDC_LIMIT_WIN_RATE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,27,67,10
+    EDITTEXT        IDC_WIN_RATE,79,25,26,12,ES_CENTER | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "限制最高逃跑率：",IDC_LIMIT_FLEE_RATE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,42,75,10
+    EDITTEXT        IDC_FLEE_RATE,86,40,25,12,ES_CENTER | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "限制最大网络延时：",IDC_LIMIT_NET_DELAY,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,57,85,10
+    EDITTEXT        IDC_NET_DELAY,94,54,25,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER,WS_EX_CLIENTEDGE
+    CONTROL         "限制积分范围：",IDC_LIMIT_SCORE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,72,66,10
+    EDITTEXT        IDC_SCORE_LESS,77,70,49,12,ES_CENTER | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SCORE_MAX,142,70,49,12,ES_CENTER | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "不跟不受欢迎的玩家游戏",IDC_LIMIT_DETEST,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,87,104,10
+    CONTROL         "不跟 IP 地址相同的玩家游戏",IDC_LIMIT_IP,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,102,120,10
+    CONTROL         "桌子携带密码：",IDC_BRING_TABLE_PASSWORD,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,117,67,10
+    EDITTEXT        IDC_TABLE_PASSWORD,79,115,71,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    LTEXT           "%",IDC_STATIC,114,42,8,8
+    LTEXT           "到",IDC_STATIC,130,72,9,8
+    LTEXT           "%",IDC_STATIC,107,27,8,8
+END
+
+IDD_OPTION_SYSTEM DIALOGEX 0, 0, 217, 176
+STYLE DS_SETFONT | DS_CENTER | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "不保存账号和密码（建议在网吧环境中使用）",IDC_SAVE_NONE,"Button",BS_AUTORADIOBUTTON | BS_FLAT,7,28,176,10
+    CONTROL         "只保存账号信息（建议在一般环境中使用）",IDC_SAVE_ACCOUNTS,"Button",BS_AUTORADIOBUTTON | BS_FLAT,7,43,168,10
+    CONTROL         "保存帐户和密码（建议在安全环境中使用）",IDC_SAVE_ACCOUNTS_AND_PASS,"Button",BS_AUTORADIOBUTTON | BS_FLAT,7,58,168,10
+END
+
+IDD_REGISTER DIALOGEX 0, 0, 204, 122
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_ACCOUNTS,62,29,78,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PASSWORD,62,46,78,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PASSWORD2,62,63,78,12,ES_PASSWORD | ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "注 册",IDOK,40,97,43,14
+    PUSHBUTTON      "取 消",IDCANCEL,121,97,43,14
+    LTEXT           "帐号名称：",IDC_TYPE_NAME,18,31,41,8
+    LTEXT           "游戏密码：",IDC_STATIC,18,48,41,8
+    LTEXT           "确认密码：",IDC_STATIC,18,66,41,8
+    CONTROL         "",IDC_USER_FACE,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,148,29,37,194
+    LTEXT           "注册帮助",IDC_PASSWORD_PROTECT,123,82,33,8
+    LTEXT           "访问游戏网站",IDC_MAIN_PAGE,47,82,49,8
+END
+
+IDD_SEND_WARNING DIALOGEX 0, 0, 226, 163
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "新宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_WARNING_MESSAGE,"RichEdit20A",ES_MULTILINE | ES_NOHIDESEL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,9,63,207,73
+    PUSHBUTTON      "发送",IDOK,10,141,45,14
+    PUSHBUTTON      "预览",IDC_PRIVIEW,62,141,45,14
+    PUSHBUTTON      "关闭",IDCANCEL,170,140,45,14
+    EDITTEXT        IDC_ACCOUNTS,54,27,56,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_ID,159,27,56,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    LTEXT           "目标用户：",IDC_STATIC,9,30,41,8
+    LTEXT           "用户 ID：",IDC_STATIC,118,29,37,8
+    LTEXT           "警告内容：",IDC_STATIC,9,51,41,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,11,45,203,1
+END
+
+IDD_MANAGER_RIGHT DIALOGEX 0, 0, 229, 129
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "禁止大厅聊天",IDC_ROOM_CHAT,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,15,53,64,10
+    CONTROL         "禁止游戏聊天",IDC_GAME_CHAT,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,84,53,64,10
+    CONTROL         "禁止发短信息",IDC_SEND_WISPER,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,153,53,64,10
+    CONTROL         "禁止旁观游戏",IDC_LOOKON_GAME,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,15,67,64,10
+    CONTROL         "禁止进行游戏",IDC_PLAY_GAME,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,84,67,64,10
+    CONTROL         "绑定帐号权限",IDC_BIND_USER,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,15,90,64,10
+    CONTROL         "绑定游戏权限",IDC_BIND_GAME,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_DISABLED | WS_TABSTOP,84,90,64,10
+    PUSHBUTTON      "确定",IDOK,44,108,45,14,WS_DISABLED
+    PUSHBUTTON      "取消",IDCANCEL,137,108,45,14
+    EDITTEXT        IDC_ACCOUNTS,56,28,55,12,ES_AUTOHSCROLL | ES_READONLY,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_USER_ID,158,28,55,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "用户名：",IDC_STATIC,18,30,33,8
+    LTEXT           "ID 号码：",IDC_STATIC,118,30,37,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,16,45,198,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,16,83,198,1
+END
+
+IDD_MANAGER_MESSAGE DIALOGEX 0, 0, 277, 153
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SYSTEM_MESSAGE,"RichEdit20A",ES_MULTILINE | ES_NOHIDESEL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_TABSTOP,7,37,262,88
+    PUSHBUTTON      "发送",IDOK,7,130,45,14
+    PUSHBUTTON      "预览",IDC_PRIVIEW,59,130,45,14
+    PUSHBUTTON      "关闭",IDCANCEL,224,130,45,14
+    LTEXT           "消息内容：",IDC_STATIC,9,26,41,8
+    CONTROL         "房间消息",IDC_ROOM_MESSAGE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,113,132,48,10
+    CONTROL         "游戏消息",IDC_GAME_MESSAGE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,168,132,48,10
+END
+
+IDD_MANAGER_SERVER DIALOGEX 0, 0, 212, 146
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "设置“即将关闭”",IDC_SET_SHALL_CLOSE,11,28,86,14
+    PUSHBUTTON      "禁止“大厅私聊”",IDC_LIMIT_WISPER,11,47,86,14
+    PUSHBUTTON      "禁止“大厅公聊”",IDC_LIMIT_ROOM_CHAT,11,66,86,14
+    PUSHBUTTON      "禁止“进入游戏”",IDC_LIMIT_ENTER_GAME,11,123,86,14
+    PUSHBUTTON      "禁止“房间聊天”",IDC_LIMIT_GAME_CHAT,11,85,86,14
+    PUSHBUTTON      "禁止“进入房间”",IDC_LIMIT_ENTER_ROOM,11,104,86,14
+    PUSHBUTTON      "恢复“正常服务”",IDC_RESET_SHALL_CLOSE,114,28,86,14
+    PUSHBUTTON      "允许“大厅私聊”",IDC_ALLOW_WISPER,114,47,86,14
+    PUSHBUTTON      "允许“大厅公聊”",IDC_ALLOW_ROOM_CHAT,114,66,86,14
+    PUSHBUTTON      "允许“进入游戏”",IDC_ALLOW_ENTER_GAME,114,123,86,14
+    PUSHBUTTON      "允许“房间聊天”",IDC_ALLOW_GAME_CHAT,114,85,86,14
+    PUSHBUTTON      "允许“进入房间”",IDC_ALLOW_ENTER_ROOM,114,104,86,14
+END
+
+IDD_USER_SHOW DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_SHOW_OK,129,7,50,14
+    PUSHBUTTON      "取消",IDC_SHOW_CANCEL,129,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 7,1,1,0
+ PRODUCTVERSION 7,1,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "游戏大厅"
+            VALUE "FileVersion", "7, 1, 1, 0"
+            VALUE "InternalName", "GamePlaza.exe"
+            VALUE "OriginalFilename", "GamePlaza.exe"
+            VALUE "ProductName", "游戏大厅"
+            VALUE "ProductVersion", "7, 1, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GAME_PLAZA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 429
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 316
+    END
+
+    IDD_LOGON, DIALOG
+    BEGIN
+        RIGHTMARGIN, 195
+    END
+
+    IDD_SHORT_MESSAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 275
+    END
+
+    IDD_MANAGER_MESSAGE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_MANAGER_SERVER, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_USER_SHOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND_CUR            CURSOR                  "Res\\HAND.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CONNECT_STATUS      BITMAP                  "Res\\CONNECT_STATUS.bmp"
+IDB_SERVER_LIST_IMAGE   BITMAP                  "Res\\SERVER_LIST_IMAGE.bmp"
+IDB_USER_STATUS         BITMAP                  "Res\\USER_STATUS.bmp"
+IDB_BT_EXPESSION        BITMAP                  "Res\\BT_EXPESSION.bmp"
+IDB_BT_SEND_CHAT        BITMAP                  "Res\\BT_SEND_CHAT.bmp"
+IDB_BT_COLOR_SET        BITMAP                  "Res\\BT_COLOR_SET.bmp"
+IDB_BT_CLEAN_SCREEN     BITMAP                  "Res\\BT_CLEAN_SCREEN.bmp"
+IDB_FRAME_MIN           BITMAP                  "Res\\FRAME_MIN.bmp"
+IDB_FRAME_CLOSE         BITMAP                  "Res\\FRAME_CLOSE.bmp"
+IDB_BAR_LEFT            BITMAP                  "Res\\BAR_LEFT.bmp"
+IDB_BAR_MIN             BITMAP                  "Res\\BAR_MIN.bmp"
+IDB_BAR_RIGHT           BITMAP                  "Res\\BAR_RIGHT.bmp"
+IDB_BAR_ITEM            BITMAP                  "Res\\BAR_ITEM.bmp"
+IDB_OP_BACKGROUND       BITMAP                  "Res\\OP_BACKGROUND.bmp"
+IDB_OP_NORMAL           BITMAP                  "Res\\OP_NORMAL.bmp"
+IDB_OP_HOT              BITMAP                  "Res\\OP_HOT.bmp"
+IDB_OP_ACTIVE           BITMAP                  "Res\\OP_ACTIVE.bmp"
+IDB_SERVER_BL           BITMAP                  "Res\\SERVER\\SERVER_BL.bmp"
+IDB_SERVER_BM           BITMAP                  "Res\\SERVER\\SERVER_BM.bmp"
+IDB_SERVER_BR           BITMAP                  "Res\\SERVER\\SERVER_BR.bmp"
+IDB_SERVER_LM           BITMAP                  "Res\\SERVER\\SERVER_LM.bmp"
+IDB_SERVER_RM           BITMAP                  "Res\\SERVER\\SERVER_RM.bmp"
+IDB_SERVER_TL           BITMAP                  "Res\\SERVER\\SERVER_TL.bmp"
+IDB_SERVER_TM           BITMAP                  "Res\\SERVER\\SERVER_TM.bmp"
+IDB_SERVER_TR           BITMAP                  "Res\\SERVER\\SERVER_TR.bmp"
+IDB_WEB_BL              BITMAP                  "Res\\WEB\\WEB_BL.bmp"
+IDB_WEB_BM              BITMAP                  "Res\\WEB\\WEB_BM.bmp"
+IDB_WEB_BR              BITMAP                  "Res\\WEB\\WEB_BR.bmp"
+IDB_WEB_LM              BITMAP                  "Res\\WEB\\WEB_LM.bmp"
+IDB_WEB_RM              BITMAP                  "Res\\WEB\\WEB_RM.bmp"
+IDB_WEB_TL              BITMAP                  "Res\\WEB\\WEB_TL.bmp"
+IDB_WEB_TM              BITMAP                  "Res\\WEB\\WEB_TM.bmp"
+IDB_WEB_TR              BITMAP                  "Res\\WEB\\WEB_TR.bmp"
+IDB_TABLE_BL            BITMAP                  "Res\\TABLE\\TABLE_BL.bmp"
+IDB_TABLE_BM            BITMAP                  "Res\\TABLE\\TABLE_BM.bmp"
+IDB_TABLE_BR            BITMAP                  "Res\\TABLE\\TABLE_BR.bmp"
+IDB_TABLE_LM            BITMAP                  "Res\\TABLE\\TABLE_LM.bmp"
+IDB_TABLE_RM            BITMAP                  "Res\\TABLE\\TABLE_RM.bmp"
+IDB_TABLE_TL            BITMAP                  "Res\\TABLE\\TABLE_TL.bmp"
+IDB_TABLE_TM            BITMAP                  "Res\\TABLE\\TABLE_TM.bmp"
+IDB_TABLE_TR            BITMAP                  "Res\\TABLE\\TABLE_TR.bmp"
+IDB_LEFT_VIEW_LM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LM.bmp"
+IDB_LEFT_VIEW_MM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MM.bmp"
+IDB_LEFT_VIEW_RM        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RM.bmp"
+IDB_LEFT_VIEW_LTM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LTM.bmp"
+IDB_LEFT_VIEW_RTM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RTM.bmp"
+IDB_LEFT_VIEW_LT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LT.bmp"
+IDB_LEFT_VIEW_MT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MT.bmp"
+IDB_LEFT_VIEW_RT        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RT.bmp"
+IDB_LEFT_VIEW_LB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LB.bmp"
+IDB_LEFT_VIEW_MB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_MB.bmp"
+IDB_LEFT_VIEW_RB        BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RB.bmp"
+IDB_LEFT_VIEW_LBM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_LBM.bmp"
+IDB_LEFT_VIEW_RBM       BITMAP                  "Res\\LEFT_VIEW\\LEFT_VIEW_RBM.bmp"
+IDB_TABLE_LOCK          BITMAP                  "res\\TABLE_LOCK.bmp"
+IDB_TABLE_READY         BITMAP                  "res\\TABLE_READY.bmp"
+IDB_FRAME_TL            BITMAP                  "res\\FRAME_TL.bmp"
+IDB_FRAME_TM            BITMAP                  "res\\FRAME_TM.bmp"
+IDB_FRAME_TR            BITMAP                  "res\\FRAME_TR.bmp"
+IDB_BAR_BUTTON          BITMAP                  "res\\BAR_BUTTON.bmp"
+IDB_FRAME_L             BITMAP                  "res\\FRAME_L.bmp"
+IDB_FRAME_R             BITMAP                  "res\\FRAME_R.bmp"
+IDB_FRAME_BT_BUTTON_4   BITMAP                  "res\\FRAME_BT_BUTTON_4.bmp"
+IDB_FRAME_BT_BUTTON_3   BITMAP                  "res\\FRAME_BT_BUTTON_3.bmp"
+IDB_FRAME_BT_BUTTON_2   BITMAP                  "res\\FRAME_BT_BUTTON_2.bmp"
+IDB_FRAME_BT_BUTTON_1   BITMAP                  "res\\FRAME_BT_BUTTON_1.bmp"
+IDB_FACE_NORMAL         BITMAP                  "res\\FACE_NORMAL.bmp"
+IDB_BT_SEARCH_USER      BITMAP                  "res\\BT_SEARCH_USER.bmp"
+IDB_BT_AUTO_JOIN        BITMAP                  "res\\BT_AUTO_JOIN.bmp"
+IDB_BAR_BUTTON_FRIEND   BITMAP                  "res\\BAR_BUTTON_FRIEND.bmp"
+IDB_BAR_BUTTON_QUIT     BITMAP                  "res\\BAR_BUTTON_QUIT.bmp"
+IDB_BAR_BUTTON_NUMBER   BITMAP                  "res\\BAR_BUTTON_NUMBER.bmp"
+IDB_BAR_BUTTON_SET      BITMAP                  "res\\BAR_BUTTON_SET.bmp"
+IDB_BAR_ITEM_HOME       BITMAP                  "res\\BAR_ITEM_HOME.bmp"
+IDB_FRAME_BT_BUTTON_5   BITMAP                  "res\\FRAME_BT_BUTTON_5.bmp"
+IDB_BT_PLAZA_HELP       BITMAP                  "res\\BT_PLAZA_HELP.bmp"
+IDB_BT_WEB_STOP         BITMAP                  "res\\BT_WEB_STOP.bmp"
+IDB_BT_WEB_NEXT         BITMAP                  "res\\BT_WEB_NEXT.bmp"
+IDB_BT_WEB_HOME         BITMAP                  "res\\BT_WEB_HOME.bmp"
+IDB_BT_WEB_BRUSH        BITMAP                  "res\\BT_WEB_BRUSH.bmp"
+IDB_BT_WEB_BEFORE       BITMAP                  "res\\BT_WEB_BEFORE.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "内部菜单"
+    BEGIN
+        MENUITEM "登录游戏广场",                      IDM_LOGON_PLAZA
+        MENUITEM "发送登陆请求",                      IDM_CONNECT_SERVER
+        MENUITEM "取消网络连接",                      IDM_CANCEL_CONNECT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_TITLE          "游戏大厅"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "GamePlaza"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "Res\GamePlaza.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

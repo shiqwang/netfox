@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 49
+.depend
+config.*
+*.a
+*.exe
+checkasm
+x264
+x264.pc
+
+END

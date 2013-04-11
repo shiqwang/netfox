@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GameProject">
+</Property><Property Name="解决方案文件" Value="F:\2007-5-24数据备份\Self\QiPai\QiPai\cf\系统模块\游戏组件\麻将\GameProject.sln">
+</Property><Property Name="用户选项文件" Value="F:\2007-5-24数据备份\Self\QiPai\QiPai\cf\系统模块\游戏组件\麻将\GameProject.suo">
+</Property><Property Name="Date" Value="2007年11月30日">
+</Property><Property Name="Time" Value="15:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GameProject.sln" Description="文件已成功备份为 F:\2007-5-24数据备份\Self\QiPai\QiPai\cf\系统模块\游戏组件\麻将\GameProject.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="GameProject.suo" Description="文件已成功备份为 F:\2007-5-24数据备份\Self\QiPai\QiPai\cf\系统模块\游戏组件\麻将\GameProject.suo.old">
+</Event><Event ErrorLevel="0" Project="GameServer" Source="游戏服务器\GameServer.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="GameServer" Source="游戏服务器\GameServer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GameClient" Source="游戏客户端\GameClient.vcproj" Description="项目升级成功。">
+</Event><Event ErrorLevel="3" Project="GameClient" Source="游戏客户端\GameClient.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GameProject.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="GameProject.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,21 @@
+10:53 2007-12-2
+1.ÉùÒôÎÄ¼þ
+2.È¡Ïû³Ô
+3.
+
+//³ÔÅÆÅÐ¶Ï
+BYTE CGameLogic::EstimateEatCard(BYTE cbCardIndex[MAX_INDEX], BYTE cbCurrentCard)
+
+
+//³ÔºúÅÐ¶Ï
+BYTE CGameLogic::EstimateChiHu(BYTE cbCardIndex[MAX_INDEX])
+
+
+
+
+//³Ôºú·ÖÎö
+BYTE CGameLogic::AnalyseChiHuCard(BYTE cbCardIndex[MAX_INDEX], tagWeaveItem WeaveItem[], BYTE cbWeaveCount, BYTE cbCurrentCard, WORD wChiHuRight, tagChiHuResult & ChiHuResult)
+
+
+	bool							m_bEnjoinChiHu[GAME_PLAYER];			//½ûÖ¹³Ôºú
+	bool							m_bEnjoinChiPeng[GAME_PLAYER];			//½ûÖ¹³ÔÅö
